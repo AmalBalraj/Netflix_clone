@@ -10,6 +10,12 @@
     overflow-y: hidden;
 }
 
+.title{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 25px;
+}
+
 .posters::-webkit-scrollbar{
     display: none;
 }
@@ -20,5 +26,10 @@
 
 }
 
+.smallPoster{
+    max-height: 150px;
+    margin-right: 10px;
+    max-width: 100%;
+}
 
 
