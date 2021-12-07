@@ -21,15 +21,26 @@
 }
 
 .poster{
+    cursor: pointer;
     max-height: 250px;
     margin-right: 10px;
 
 }
 
 .smallPoster{
+    cursor: pointer;
     max-height: 150px;
     margin-right: 10px;
     max-width: 100%;
 }
 
+.poster:hover{
+    transform: scale(1.1);
+    transition: all .5s;
+}
+
+.smallPoster:hover{
+    transform: scale(1.1);
+    transition: all .5s;
+}
 
